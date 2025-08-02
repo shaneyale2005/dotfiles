@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="simple"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -133,14 +133,14 @@ alias tl="tmux list-sessions"
 alias tn="tmux new -s"
 alias tk="tmux kill-session -t"
 alias ta="tmux attach -t"
-export http_proxy="http://127.0.0.1:7897"
-export https_proxy="http://127.0.0.1:7897"
+# export http_proxy="http://127.0.0.1:7897"
+# export https_proxy="http://127.0.0.1:7897"
 # export NVM_DIR="$HOME/.nvm"
 # 这里是设置环境变量
 # export PATH="/Users/shaneyale/.local/bin:$PATH"
-#nvm() { . "$NVM_DIR/nvm.sh" ; nvm $@ ; }
+# nvm() { . "$NVM_DIR/nvm.sh" ; nvm $@ ; }
 # 这里是设置node的版本
-export PATH=$HOME/.nvm/versions/node/v22.15.1/bin/:$PATH
-#export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-#export PATH="/opt/homebrew/lib/ruby/gems/3.4.0/bin:$PATH"
-#[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+# export PATH=$HOME/.nvm/versions/node/v22.15.1/bin/:$PATH
+# export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+# export PATH="/opt/homebrew/lib/ruby/gems/3.4.0/bin:$PATH"
+# [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
