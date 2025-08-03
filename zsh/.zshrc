@@ -111,13 +111,13 @@ source $ZSH/oh-my-zsh.sh
 # if [ $? -eq 0 ]; then
 #     eval "$__conda_setup"
 # else
-    if [ -f "/Users/shaneyale/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/shaneyale/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/shaneyale/miniconda3/bin:$PATH"
-    fi
-#fi
-unset __conda_setup
+#    if [ -f "/Users/shaneyale/miniconda3/etc/profile.d/conda.sh" ]; then
+#        . "/Users/shaneyale/miniconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/Users/shaneyale/miniconda3/bin:$PATH"
+#    fi
+# fi
+# unset __conda_setup
 # <<< conda initialize <<<
 
 # 这里是设置VScode的环境变量
