@@ -10,7 +10,8 @@ set mouse=a
 set encoding=utf-8  
 set tabstop=4
 map <Space>e :NERDTreeToggle<CR>
-nmap <S-h> <C-w>h
-nmap <S-l> <C-w>l
+nmap <S-H> :tabprevious<CR>
+nmap <S-L> :tabnext<CR> 
+
 
 
